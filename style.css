@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    margin: 8px 0;
+    color: #666;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.education-item,
+.experience-item,
+.project-item,
+.skills,
+.achievements,
+.certifications {
+    margin-bottom: 30px;
+}
+
+.projects,
+.skills ul,
+.achievements,
+.certifications {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.projects a,
+.skills a,
+.achievements a,
+.certifications a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.projects a:hover,
+.skills a:hover,
+.achievements a:hover,
+.certifications a:hover {
+    text-decoration: underline;
+}
